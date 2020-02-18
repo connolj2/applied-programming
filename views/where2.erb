@@ -28,10 +28,13 @@
         width="600"
         height="450"
         frameborder="0" style="border:0"
-        src="https://www.google.com/maps/embed/v1/place?key=<%= ENV["GOOGLE_MAPS_KEY"] %>
-          &q=42.0574063,-87.6722787&zoom=6" allowfullscreen>
+        src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCtovsQvkIUWlNqtYwXY87gEd4ZSmJEhMw
+          &q=<%= @lat %>,<%= @long %>&zoom=6" allowfullscreen>
       </iframe>
+      <a href="/" class="btn btn-primary">Do It Again!</a>
+      </p>
     </div>
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
